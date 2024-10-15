@@ -268,10 +268,10 @@ func main() {
 
 #### Output:
 ![Output](<Latihan_6 Sebelum diperbaiki.png>)
-##### a. Jika nam diberikan adalah 80.1, apa keluaran dari program tersebut? Apakah eksekusi program tersebut sesuai spesifikasi soal?
+#### a. Jika nam diberikan adalah 80.1, apa keluaran dari program tersebut? Apakah eksekusi program tersebut sesuai spesifikasi soal?
 hasil keluaran untuk input 80.1 adalah "D", yang tidak sesuai dengan spesifikasi soal. Program seharusnya memberikan hasil "A" untuk nilai di atas 80, tetapi karena tidak ada blok else if, variabel nmk terus ditimpa hingga kondisi terakhir terpenuhi.
 
-##### b. Apa saja kesalahan dari program tersebut? Mengapa demikian? Jelaskan alur program seharusnya!
+#### b. Apa saja kesalahan dari program tersebut? Mengapa demikian? Jelaskan alur program seharusnya!
 ###### Kesalahan dalam Program Sebelum Perbaikan:
 1. Semua Kondisi Menggunakan if Terpisah:
 Tidak menggunakan else if, sehingga setiap kondisi if berdiri sendiri. Ketika nam lebih besar dari beberapa batas nilai, program akan mengevaluasi semua if dan menimpa nilai nmk berkali-kali.
@@ -287,7 +287,7 @@ Setiap kondisi dievaluasi secara independen, menyebabkan nilai nmk diubah bebera
 
 Kesimpulannya, alur yang benar adalah menggunakan else if untuk menghindari penilaian berulang dan memastikan nilai nmk di-set sesuai dengan kriteria penilaian yang diinginkan.
 
-##### c. Perbaiki program tersebut! Ujilah dengan masukan: 93.5; 70.6; dan 49.5. Seharusnya keluaran yang diperoleh adalah 'A', 'B', dan 'D'.
+#### c. Perbaiki program tersebut! Ujilah dengan masukan: 93.5; 70.6; dan 49.5. Seharusnya keluaran yang diperoleh adalah 'A', 'B', dan 'D'.
 ```GO
 // Sesudah diperbaiki
 
