@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 3 - Perulangan & Percabangan</h1>
+# <h1 align="center">Laporan Praktikum Modul 4 - Fungsi & Prosedur</h1>
 <p align="center">Naufal Luthfi Assary</p>
 <p align="center">2311102125</p>
 
