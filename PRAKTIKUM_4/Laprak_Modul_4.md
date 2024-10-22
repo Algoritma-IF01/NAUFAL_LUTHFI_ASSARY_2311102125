@@ -230,7 +230,7 @@ func main() {
 ```
 
 #### Output:
-![Output](Latihan_5.png)
+![Output](Prosedur_1.png)
 
 ### Prosedur 2.
 
@@ -324,7 +324,7 @@ func main() {
 ```
 
 #### Output:
-![Output](<Latihan_6 Sebelum diperbaiki.png>)
+![Output](Prosedur_2.png)
 
 ### Prosedur 3.
 
@@ -362,7 +362,7 @@ func main() {
 ```
 
 #### Output:
-![Output](Latihan_7.png)
+![Output](Prosedur_3.png)
 
 
 
